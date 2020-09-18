@@ -1,10 +1,5 @@
 language: cpp
 compiler: clang
-git:
-- submodules: false
-before_install:
-- sed -i 's/git@github.com:/git:\/\/github.com\//' .gitmodules
-- git submodule update --init --recursive
 install:
 - DEPS_DIR="${TRAVIS_BUILD_DIR}/deps"
 - mkdir ${DEPS_DIR} && cd ${DEPS_DIR}

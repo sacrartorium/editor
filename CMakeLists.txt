@@ -14,7 +14,7 @@ set_target_properties(editor PROPERTIES
     CXX_STANDARD_REQUIRED ON
 )
 
-FIND_PACKAGE(Doxygen)
+FIND_PACKAGE(Doxygen REQUIRED dot)
 if (DOXYGEN_FOUND)
     message(STATUS "Doxygen is found:)")
     
@@ -23,8 +23,6 @@ if (DOXYGEN_FOUND)
     set(DOXYGEN_RECURSIVE NO)
     set(DOXYGEN_PROJECT_NAME ${CMAKE_PROJECT_NAME})
     set(DOXYGEN_PROJECT_NUMBER 0.0.$ENV{TRAVIS_BUILD_NUMBER})
-    set(DOXYGEN_HAVE_DOT YES)
-    set(DOXYGEN_EXTRACT_ALL YES)
     
     configure_file(doxygen.conf.in doxygen.conf)
     add_custom_target(editor_doc COMMAND ${DOXYGEN_EXECUTABLE} doxygen.conf)

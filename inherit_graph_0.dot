@@ -1,0 +1,21 @@
+digraph "Иерархия классов. Графический вид."
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="enable_shared_from_this",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Document",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document.html",tooltip="Документ. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DocumentController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_document_controller.html",tooltip="Контроллер документов. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GraphicPrimitive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_graphic_primitive.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="GraphicPrimitiveController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_graphic_primitive_controller.html"];
+  Node6 [label="IController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_i_controller.html",tooltip="Базовый интерфейс контроллера. "];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="IModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_i_model.html",tooltip="Базовый интерфейс модели. "];
+  Node7 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

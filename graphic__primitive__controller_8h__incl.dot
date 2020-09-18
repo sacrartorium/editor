@@ -1,0 +1,15 @@
+digraph "/home/travis/build/tantskii/editor/src/graphic_primitive_controller.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/travis/build\l/tantskii/editor/src\l/graphic_primitive_controller.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="base_interface.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$base__interface_8h.html",tooltip="Заголовочный файл, содержащий интерфейсы контроллера и модели. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="memory",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="graphic_primitive.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$graphic__primitive_8h.html",tooltip="Заголовочный файл, содержащий интерфейс модели графического интерфейса. "];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="iostream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

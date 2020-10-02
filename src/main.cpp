@@ -1,13 +1,12 @@
-#include "document_controller.h"
-#include "graphic_primitive_controller.h"
+#include "controller.h"
 #include <iostream>
 
 /*!
  Демонстрационная функция обработки документа.
  */
 void handle_document() {
-    DocumentControllerPtr controller = std::make_shared<DocumentController>();
-    DocumentPtr document = controller->create();
+    ControllerPtr controller = makeController();
+    DocumentPtr document = controller->createDocument();
     document->import("/home/user/import.doc");
     /* Какие-то действия с документом. */
     document->dump("/home/user/export.doc");
@@ -18,10 +17,10 @@ void handle_document() {
  Демонстрационная функция обработки графического интерфейса.
  */
 void handle_graphic_primitive() {
-    GraphicPrimitiveControllerPtr controller = std::make_shared<GraphicPrimitiveController>();
-    GraphicPrimitivePtr graphicPrimitive = controller->create();
+    ControllerPtr controller = makeController();
+    GraphicPrimitivePtr graphicPrimitive = controller->createGraphicPrimitive();
     /* Какие-то действия с графическим примитивом. */
-    controller->destroy(graphicPrimitive);
+    controller->destroyGraphicPrimitive(graphicPrimitive);
 }
 
 

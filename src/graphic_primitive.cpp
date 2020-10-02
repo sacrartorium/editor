@@ -8,5 +8,5 @@ GraphicPrimitive::GraphicPrimitive() {
 
 GraphicPrimitive::~GraphicPrimitive() {
     std::cout << "[GraphicPrimitive][Model] Destroying GraphicPrimitive" << std::endl;
-    m_controllerPtr->notify(nullptr, "destroy");
+    m_controllerPtr->notify(nullptr, "destroy graphic primitive");
 }

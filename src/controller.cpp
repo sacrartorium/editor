@@ -1,29 +1,24 @@
-#include "graphic_primitive_controller.h"
-
+#include "controller.h"
 
 /*!
  Оповещение графическим примитивов контроллера о своем действии.
  @param modelPtr Указатель на документ.
  @param event Событие.
  */
-void GraphicPrimitiveController::notify(IModelPtr modelPtr, std::string event) const {
+void Controller::notify(IModelPtr modelPtr, std::string event) const {
     UNUSED(modelPtr);
     
-    if (event == "destroy") {
-        std::cout << "[GraphicPrimitive][Controller] GraphicPrimitive is destroyed." << std::endl;
-    } else if (event == "create") {
-        std::cout << "[GraphicPrimitive][Controller] GraphicPrimitive is created." << std::endl;
-    }
+    std::cout << "[Controller] " << event << std::endl;
 }
 
 
 /*!
  Создание графического примитива.
  */
-GraphicPrimitivePtr GraphicPrimitiveController::create() {
+GraphicPrimitivePtr Controller::createGraphicPrimitive() {
     m_graphicPrimitivePtr = std::make_shared<GraphicPrimitive>();
     m_graphicPrimitivePtr->setController(shared_from_this());
-    notify(m_graphicPrimitivePtr, "create");
+    notify(m_graphicPrimitivePtr, "create graphic primitive");
     return m_graphicPrimitivePtr;
 }
 
@@ -32,8 +27,24 @@ GraphicPrimitivePtr GraphicPrimitiveController::create() {
  Удаление графического примитива.
  @param graphicPrimitivePtr Указатель на удаляемый графический примитив.
  */
-void GraphicPrimitiveController::destroy(GraphicPrimitivePtr graphicPrimitivePtr) {
+void Controller::destroyGraphicPrimitive(GraphicPrimitivePtr graphicPrimitivePtr) {
     if (graphicPrimitivePtr == m_graphicPrimitivePtr) {
         m_graphicPrimitivePtr.reset();
     }
 }
+
+/*!
+ Создание документа.
+ */
+DocumentPtr Controller::createDocument() {
+    m_documentPtr = std::make_shared<Document>();
+    m_documentPtr->setController(shared_from_this());
+    notify(m_documentPtr, "create document");
+    return m_documentPtr;
+}
+
+
+ControllerPtr makeController() {
+    return std::make_shared<Controller>();
+}
+

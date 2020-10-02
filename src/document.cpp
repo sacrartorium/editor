@@ -14,7 +14,7 @@ Document::Document() {
 void Document::import(const std::string& importPath) {
     std::cout << "[Document][Model] Importing document from " << importPath << std::endl;
     
-    m_controllerPtr->notify(shared_from_this(), "import");
+    m_controllerPtr->notify(shared_from_this(), "import document");
 }
 
 
@@ -25,5 +25,5 @@ void Document::import(const std::string& importPath) {
 void Document::dump(const std::string& exportPath) {
     std::cout << "[Document][Model] Exporting document to " << exportPath << std::endl;
     
-    m_controllerPtr->notify(shared_from_this(), "export");
+    m_controllerPtr->notify(shared_from_this(), "export document");
 }

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['graphicprimitivecontrollerptr',['GraphicPrimitiveControllerPtr',['../graphic__primitive__controller_8h.html#a2ccb0ad4bb07150aec194a7bd9bdb12b',1,'graphic_primitive_controller.h']]],
-  ['graphicprimitiveptr',['GraphicPrimitivePtr',['../graphic__primitive_8h.html#a22f040cb6f481748be0551755295f168',1,'graphic_primitive.h']]]
+  ['documentptr',['DocumentPtr',['../document_8h.html#ad60171aff89ecd58f40540e0e5a82013',1,'document.h']]]
 ];

@@ -1,5 +1,10 @@
 var searchData=
 [
   ['cmakelists_2etxt',['CMakeLists.txt',['../_c_make_lists_8txt.html',1,'']]],
-  ['create',['create',['../class_document_controller.html#a38269085067329ade2a735d0e8545163',1,'DocumentController::create()'],['../class_graphic_primitive_controller.html#a9af6f965ea7acc9d0fe559d22af949da',1,'GraphicPrimitiveController::create()']]]
+  ['controller',['Controller',['../class_controller.html',1,'']]],
+  ['controller_2ecpp',['controller.cpp',['../controller_8cpp.html',1,'']]],
+  ['controller_2eh',['controller.h',['../controller_8h.html',1,'']]],
+  ['controllerptr',['ControllerPtr',['../controller_8h.html#a2d4a405eee06f01ae6e361c77a57f709',1,'controller.h']]],
+  ['createdocument',['createDocument',['../class_controller.html#aba29793709ce8f0f0b7df8e33ebae9a1',1,'Controller']]],
+  ['creategraphicprimitive',['createGraphicPrimitive',['../class_controller.html#a85821b8cdb88981e14989216e6adde72',1,'Controller']]]
 ];

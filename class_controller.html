@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>editor: Класс DocumentController</title>
+<title>editor: Класс Controller</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">editor
-   &#160;<span id="projectnumber">0.0.3</span>
+   &#160;<span id="projectnumber">0.0.4</span>
    </div>
   </td>
  </tr>
@@ -85,53 +85,54 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Открытые члены</a> &#124;
-<a href="class_document_controller-members.html">Полный список членов класса</a>  </div>
+<a href="class_controller-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle">
-<div class="title">Класс DocumentController</div>  </div>
+<div class="title">Класс Controller</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Контроллер документов.  
- <a href="class_document_controller.html#details">Подробнее...</a></p>
-
-<p><code>#include &lt;<a class="el" href="document__controller_8h_source.html">document_controller.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="controller_8h_source.html">controller.h</a>&gt;</code></p>
 <div class="dynheader">
-Граф наследования:DocumentController:</div>
+Граф наследования:Controller:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_document_controller__inherit__graph.png" border="0" usemap="#_document_controller_inherit__map" alt="Inheritance graph"/></div>
-<map name="_document_controller_inherit__map" id="_document_controller_inherit__map">
+<div class="center"><img src="class_controller__inherit__graph.png" border="0" usemap="#_controller_inherit__map" alt="Inheritance graph"/></div>
+<map name="_controller_inherit__map" id="_controller_inherit__map">
 <area shape="rect" id="node2" href="class_i_controller.html" title="Базовый интерфейс контроллера. " alt="" coords="5,5,128,97"/>
 </map>
 </div>
 <div class="dynheader">
-Граф связей класса DocumentController:</div>
+Граф связей класса Controller:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_document_controller__coll__graph.png" border="0" usemap="#_document_controller_coll__map" alt="Collaboration graph"/></div>
-<map name="_document_controller_coll__map" id="_document_controller_coll__map">
+<div class="center"><img src="class_controller__coll__graph.png" border="0" usemap="#_controller_coll__map" alt="Collaboration graph"/></div>
+<map name="_controller_coll__map" id="_controller_coll__map">
 <area shape="rect" id="node2" href="class_i_controller.html" title="Базовый интерфейс контроллера. " alt="" coords="5,5,128,97"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Открытые члены</h2></td></tr>
-<tr class="memitem:a5b95d5ab385d8b67abe9e4efcd1c1d2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document_controller.html#a5b95d5ab385d8b67abe9e4efcd1c1d2c">notify</a> (<a class="el" href="base__interface_8h.html#ac2fbe95294e9b08db804103795e90f21">IModelPtr</a> modelPtr, std::string event) const override</td></tr>
-<tr class="separator:a5b95d5ab385d8b67abe9e4efcd1c1d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38269085067329ade2a735d0e8545163"><td class="memItemLeft" align="right" valign="top"><a class="el" href="document_8h.html#ad60171aff89ecd58f40540e0e5a82013">DocumentPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_document_controller.html#a38269085067329ade2a735d0e8545163">create</a> ()</td></tr>
-<tr class="memdesc:a38269085067329ade2a735d0e8545163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создание документа.  <a href="#a38269085067329ade2a735d0e8545163">Подробнее...</a><br /></td></tr>
-<tr class="separator:a38269085067329ade2a735d0e8545163"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a005c86f06ac5442331bdfab494bd42a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a005c86f06ac5442331bdfab494bd42a0">notify</a> (<a class="el" href="base__interface_8h.html#ac2fbe95294e9b08db804103795e90f21">IModelPtr</a> modelPtr, std::string event) const override</td></tr>
+<tr class="separator:a005c86f06ac5442331bdfab494bd42a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba29793709ce8f0f0b7df8e33ebae9a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="document_8h.html#ad60171aff89ecd58f40540e0e5a82013">DocumentPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#aba29793709ce8f0f0b7df8e33ebae9a1">createDocument</a> ()</td></tr>
+<tr class="memdesc:aba29793709ce8f0f0b7df8e33ebae9a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создание документа.  <a href="#aba29793709ce8f0f0b7df8e33ebae9a1">Подробнее...</a><br /></td></tr>
+<tr class="separator:aba29793709ce8f0f0b7df8e33ebae9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85821b8cdb88981e14989216e6adde72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="graphic__primitive_8h.html#a22f040cb6f481748be0551755295f168">GraphicPrimitivePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a85821b8cdb88981e14989216e6adde72">createGraphicPrimitive</a> ()</td></tr>
+<tr class="memdesc:a85821b8cdb88981e14989216e6adde72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создание графического примитива.  <a href="#a85821b8cdb88981e14989216e6adde72">Подробнее...</a><br /></td></tr>
+<tr class="separator:a85821b8cdb88981e14989216e6adde72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c24ff90ca2b1bceb6fcee0ca97e26fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller.html#a4c24ff90ca2b1bceb6fcee0ca97e26fd">destroyGraphicPrimitive</a> (<a class="el" href="graphic__primitive_8h.html#a22f040cb6f481748be0551755295f168">GraphicPrimitivePtr</a>)</td></tr>
+<tr class="memdesc:a4c24ff90ca2b1bceb6fcee0ca97e26fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаление графического примитива.  <a href="#a4c24ff90ca2b1bceb6fcee0ca97e26fd">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4c24ff90ca2b1bceb6fcee0ca97e26fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_i_controller"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_controller')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="class_i_controller.html">IController</a></td></tr>
 <tr class="memitem:adbe8a8556fee242cfdb0cc251ebd1a81 inherit pub_methods_class_i_controller"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_controller.html#adbe8a8556fee242cfdb0cc251ebd1a81">~IController</a> ()=default</td></tr>
 <tr class="separator:adbe8a8556fee242cfdb0cc251ebd1a81 inherit pub_methods_class_i_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
-<div class="textblock"><p>Контроллер документов. </p>
-</div><h2 class="groupheader">Методы</h2>
-<a class="anchor" id="a38269085067329ade2a735d0e8545163"></a>
+<h2 class="groupheader">Методы</h2>
+<a class="anchor" id="aba29793709ce8f0f0b7df8e33ebae9a1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="document_8h.html#ad60171aff89ecd58f40540e0e5a82013">DocumentPtr</a> DocumentController::create </td>
+          <td class="memname"><a class="el" href="document_8h.html#ad60171aff89ecd58f40540e0e5a82013">DocumentPtr</a> Controller::createDocument </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -144,7 +145,49 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 
 </div>
 </div>
-<a class="anchor" id="a5b95d5ab385d8b67abe9e4efcd1c1d2c"></a>
+<a class="anchor" id="a85821b8cdb88981e14989216e6adde72"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="graphic__primitive_8h.html#a22f040cb6f481748be0551755295f168">GraphicPrimitivePtr</a> Controller::createGraphicPrimitive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Создание графического примитива. </p>
+<p>Создание графического примитива. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4c24ff90ca2b1bceb6fcee0ca97e26fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Controller::destroyGraphicPrimitive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="graphic__primitive_8h.html#a22f040cb6f481748be0551755295f168">GraphicPrimitivePtr</a>&#160;</td>
+          <td class="paramname"><em>graphicPrimitivePtr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Удаление графического примитива. </p>
+<p>Удаление графического примитива. </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">graphicPrimitivePtr</td><td>Указатель на удаляемый графический примитив. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a005c86f06ac5442331bdfab494bd42a0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -152,7 +195,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DocumentController::notify </td>
+          <td class="memname">void Controller::notify </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="base__interface_8h.html#ac2fbe95294e9b08db804103795e90f21">IModelPtr</a>&#160;</td>
           <td class="paramname"><em>modelPtr</em>, </td>
@@ -175,7 +218,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Оповещение документом контроллера о своем действии. </p><dl class="params"><dt>Аргументы</dt><dd>
+<p>Оповещение графическим примитивов контроллера о своем действии. </p><dl class="params"><dt>Аргументы</dt><dd>
   <table class="params">
     <tr><td class="paramname">modelPtr</td><td>Указатель на документ. </td></tr>
     <tr><td class="paramname">event</td><td>Событие. </td></tr>
@@ -188,8 +231,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 </div>
 </div>
 <hr/>Объявления и описания членов классов находятся в файлах:<ul>
-<li>/home/travis/build/tantskii/editor/src/<a class="el" href="document__controller_8h_source.html">document_controller.h</a></li>
-<li>/home/travis/build/tantskii/editor/src/<a class="el" href="document__controller_8cpp.html">document_controller.cpp</a></li>
+<li>/home/travis/build/tantskii/editor/src/<a class="el" href="controller_8h_source.html">controller.h</a></li>
+<li>/home/travis/build/tantskii/editor/src/<a class="el" href="controller_8cpp.html">controller.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

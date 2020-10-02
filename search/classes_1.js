@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['graphicprimitive',['GraphicPrimitive',['../class_graphic_primitive.html',1,'']]],
-  ['graphicprimitivecontroller',['GraphicPrimitiveController',['../class_graphic_primitive_controller.html',1,'']]]
+  ['document',['Document',['../class_document.html',1,'']]]
 ];

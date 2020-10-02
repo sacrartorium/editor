@@ -1,6 +1,6 @@
 <map id="/home/travis/build/tantskii/editor/src/document.h" name="/home/travis/build/tantskii/editor/src/document.h">
-<area shape="rect" id="node2" href="$document_8cpp.html" title="/home/travis/build\l/tantskii/editor/src\l/document.cpp" alt="" coords="5,109,141,165"/>
-<area shape="rect" id="node3" href="$document__controller_8h.html" title="Заголовочный файл, содержащий объявление контроллера для документов. " alt="" coords="166,109,335,165"/>
-<area shape="rect" id="node4" href="$document__controller_8cpp.html" title="/home/travis/build\l/tantskii/editor/src\l/document_controller.cpp" alt="" coords="67,213,251,269"/>
-<area shape="rect" id="node5" href="$main_8cpp.html" title="/home/travis/build\l/tantskii/editor/src\l/main.cpp" alt="" coords="275,213,411,269"/>
+<area shape="rect" id="node2" href="$controller_8h.html" title="/home/travis/build\l/tantskii/editor/src\l/controller.h" alt="" coords="85,109,221,165"/>
+<area shape="rect" id="node5" href="$document_8cpp.html" title="/home/travis/build\l/tantskii/editor/src\l/document.cpp" alt="" coords="245,109,381,165"/>
+<area shape="rect" id="node3" href="$controller_8cpp.html" title="/home/travis/build\l/tantskii/editor/src\l/controller.cpp" alt="" coords="5,213,141,269"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title="/home/travis/build\l/tantskii/editor/src\l/main.cpp" alt="" coords="165,213,301,269"/>
 </map>

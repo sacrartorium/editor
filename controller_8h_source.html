@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>editor: Исходный файл /home/travis/build/tantskii/editor/src/controller.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">editor
+   &#160;<span id="projectnumber">0.0.4</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">controller.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="controller_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="base__interface_8h.html">base_interface.h</a>&quot;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="document_8h.html">document.h</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="graphic__primitive_8h.html">graphic_primitive.h</a>&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_controller.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_controller.html">Controller</a> : <span class="keyword">public</span> <a class="code" href="class_i_controller.html">IController</a>, <span class="keyword">public</span> std::enable_shared_from_this&lt;Controller&gt; {</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_controller.html#a005c86f06ac5442331bdfab494bd42a0">notify</a>(<a class="code" href="base__interface_8h.html#ac2fbe95294e9b08db804103795e90f21">IModelPtr</a> modelPtr, std::string event) <span class="keyword">const override</span>;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    </div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="document_8h.html#ad60171aff89ecd58f40540e0e5a82013">DocumentPtr</a> <a class="code" href="class_controller.html#aba29793709ce8f0f0b7df8e33ebae9a1">createDocument</a>(); </div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="graphic__primitive_8h.html#a22f040cb6f481748be0551755295f168">GraphicPrimitivePtr</a> <a class="code" href="class_controller.html#a85821b8cdb88981e14989216e6adde72">createGraphicPrimitive</a>();  </div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_controller.html#a4c24ff90ca2b1bceb6fcee0ca97e26fd">destroyGraphicPrimitive</a>(<a class="code" href="graphic__primitive_8h.html#a22f040cb6f481748be0551755295f168">GraphicPrimitivePtr</a>); </div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    </div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="graphic__primitive_8h.html#a22f040cb6f481748be0551755295f168">GraphicPrimitivePtr</a> m_graphicPrimitivePtr;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="document_8h.html#ad60171aff89ecd58f40540e0e5a82013">DocumentPtr</a> m_documentPtr; </div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;};</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="controller_8h.html#a2d4a405eee06f01ae6e361c77a57f709">   22</a></span>&#160;<span class="keyword">using</span> <a class="code" href="controller_8h.html#a2d4a405eee06f01ae6e361c77a57f709">ControllerPtr</a> = std::shared_ptr&lt;Controller&gt;;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<a class="code" href="controller_8h.html#a2d4a405eee06f01ae6e361c77a57f709">ControllerPtr</a> <a class="code" href="controller_8h.html#acd46b903e6bae8aa83721aeeceb480e1">makeController</a>();</div><div class="ttc" id="base__interface_8h_html"><div class="ttname"><a href="base__interface_8h.html">base_interface.h</a></div><div class="ttdoc">Заголовочный файл, содержащий интерфейсы контроллера и модели. </div></div>
+<div class="ttc" id="class_controller_html_a4c24ff90ca2b1bceb6fcee0ca97e26fd"><div class="ttname"><a href="class_controller.html#a4c24ff90ca2b1bceb6fcee0ca97e26fd">Controller::destroyGraphicPrimitive</a></div><div class="ttdeci">void destroyGraphicPrimitive(GraphicPrimitivePtr)</div><div class="ttdoc">Удаление графического примитива. </div><div class="ttdef"><b>Definition:</b> controller.cpp:30</div></div>
+<div class="ttc" id="graphic__primitive_8h_html"><div class="ttname"><a href="graphic__primitive_8h.html">graphic_primitive.h</a></div><div class="ttdoc">Заголовочный файл, содержащий интерфейс модели графического интерфейса. </div></div>
+<div class="ttc" id="document_8h_html_ad60171aff89ecd58f40540e0e5a82013"><div class="ttname"><a href="document_8h.html#ad60171aff89ecd58f40540e0e5a82013">DocumentPtr</a></div><div class="ttdeci">std::shared_ptr&lt; Document &gt; DocumentPtr</div><div class="ttdoc">Тип указателя на модель документа </div><div class="ttdef"><b>Definition:</b> document.h:15</div></div>
+<div class="ttc" id="graphic__primitive_8h_html_a22f040cb6f481748be0551755295f168"><div class="ttname"><a href="graphic__primitive_8h.html#a22f040cb6f481748be0551755295f168">GraphicPrimitivePtr</a></div><div class="ttdeci">std::shared_ptr&lt; GraphicPrimitive &gt; GraphicPrimitivePtr</div><div class="ttdoc">Тип указателя на модель графического примитива </div><div class="ttdef"><b>Definition:</b> graphic_primitive.h:16</div></div>
+<div class="ttc" id="base__interface_8h_html_ac2fbe95294e9b08db804103795e90f21"><div class="ttname"><a href="base__interface_8h.html#ac2fbe95294e9b08db804103795e90f21">IModelPtr</a></div><div class="ttdeci">std::shared_ptr&lt; IModel &gt; IModelPtr</div><div class="ttdoc">Тип указателя на интерфейс контроллера </div><div class="ttdef"><b>Definition:</b> base_interface.h:17</div></div>
+<div class="ttc" id="class_controller_html_aba29793709ce8f0f0b7df8e33ebae9a1"><div class="ttname"><a href="class_controller.html#aba29793709ce8f0f0b7df8e33ebae9a1">Controller::createDocument</a></div><div class="ttdeci">DocumentPtr createDocument()</div><div class="ttdoc">Создание документа. </div><div class="ttdef"><b>Definition:</b> controller.cpp:39</div></div>
+<div class="ttc" id="controller_8h_html_a2d4a405eee06f01ae6e361c77a57f709"><div class="ttname"><a href="controller_8h.html#a2d4a405eee06f01ae6e361c77a57f709">ControllerPtr</a></div><div class="ttdeci">std::shared_ptr&lt; Controller &gt; ControllerPtr</div><div class="ttdef"><b>Definition:</b> controller.h:22</div></div>
+<div class="ttc" id="class_controller_html_a85821b8cdb88981e14989216e6adde72"><div class="ttname"><a href="class_controller.html#a85821b8cdb88981e14989216e6adde72">Controller::createGraphicPrimitive</a></div><div class="ttdeci">GraphicPrimitivePtr createGraphicPrimitive()</div><div class="ttdoc">Создание графического примитива. </div><div class="ttdef"><b>Definition:</b> controller.cpp:18</div></div>
+<div class="ttc" id="class_controller_html"><div class="ttname"><a href="class_controller.html">Controller</a></div><div class="ttdef"><b>Definition:</b> controller.h:8</div></div>
+<div class="ttc" id="class_controller_html_a005c86f06ac5442331bdfab494bd42a0"><div class="ttname"><a href="class_controller.html#a005c86f06ac5442331bdfab494bd42a0">Controller::notify</a></div><div class="ttdeci">void notify(IModelPtr modelPtr, std::string event) const override</div><div class="ttdef"><b>Definition:</b> controller.cpp:8</div></div>
+<div class="ttc" id="document_8h_html"><div class="ttname"><a href="document_8h.html">document.h</a></div><div class="ttdoc">Заголовочный файл, содержащий интерфейс модели документа. </div></div>
+<div class="ttc" id="controller_8h_html_acd46b903e6bae8aa83721aeeceb480e1"><div class="ttname"><a href="controller_8h.html#acd46b903e6bae8aa83721aeeceb480e1">makeController</a></div><div class="ttdeci">ControllerPtr makeController()</div><div class="ttdef"><b>Definition:</b> controller.cpp:47</div></div>
+<div class="ttc" id="class_i_controller_html"><div class="ttname"><a href="class_i_controller.html">IController</a></div><div class="ttdoc">Базовый интерфейс контроллера. </div><div class="ttdef"><b>Definition:</b> base_interface.h:24</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">editor
-   &#160;<span id="projectnumber">0.0.4</span>
+   &#160;<span id="projectnumber">0.0.5</span>
    </div>
   </td>
  </tr>
@@ -96,12 +96,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 
 <p>Заголовочный файл, содержащий интерфейсы контроллера и модели.  
 <a href="#details">Подробнее...</a></p>
-<div class="textblock"><code>#include &lt;memory&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="publisher_8h_source.html">publisher.h</a>&quot;</code><br />
+<code>#include &lt;memory&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Граф включаемых заголовочных файлов для base_interface.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="base__interface_8h__incl.png" border="0" usemap="#_2home_2travis_2build_2tantskii_2editor_2src_2base__interface_8h" alt=""/></div>
 <map name="_2home_2travis_2build_2tantskii_2editor_2src_2base__interface_8h" id="_2home_2travis_2build_2tantskii_2editor_2src_2base__interface_8h">
+<area shape="rect" id="node2" href="publisher_8h.html" title="Заголовочный файл, содержит объявление интерфейсов шаблона Publisher&#45;Subscriber. " alt="" coords="64,109,155,136"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -130,6 +132,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_model.html">IModel</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Базовый интерфейс модели.  <a href="class_i_model.html#details">Подробнее...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_view.html">IView</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Базовый интерфейс представления.  <a href="class_i_view.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Макросы</h2></td></tr>
@@ -139,9 +144,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Определения типов</h2></td></tr>
 <tr class="memitem:ac2fbe95294e9b08db804103795e90f21"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="base__interface_8h.html#ac2fbe95294e9b08db804103795e90f21">IModelPtr</a> = std::shared_ptr&lt; <a class="el" href="class_i_model.html">IModel</a> &gt;</td></tr>
-<tr class="memdesc:ac2fbe95294e9b08db804103795e90f21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тип указателя на интерфейс контроллера  <a href="#ac2fbe95294e9b08db804103795e90f21">Подробнее...</a><br /></td></tr>
+<tr class="memdesc:ac2fbe95294e9b08db804103795e90f21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тип указателя на интерфейс модели  <a href="#ac2fbe95294e9b08db804103795e90f21">Подробнее...</a><br /></td></tr>
 <tr class="separator:ac2fbe95294e9b08db804103795e90f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21c827cf1eacda239eccb2c00dc8b6c1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="base__interface_8h.html#a21c827cf1eacda239eccb2c00dc8b6c1">IViewPtr</a> = std::shared_ptr&lt; <a class="el" href="class_i_view.html">IView</a> &gt;</td></tr>
+<tr class="memdesc:a21c827cf1eacda239eccb2c00dc8b6c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тип указателя на интерфейс контроллера  <a href="#a21c827cf1eacda239eccb2c00dc8b6c1">Подробнее...</a><br /></td></tr>
+<tr class="separator:a21c827cf1eacda239eccb2c00dc8b6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b64fc45831d48fb6c5ddf0095efd2d6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="base__interface_8h.html#a2b64fc45831d48fb6c5ddf0095efd2d6">IControllerPtr</a> = std::shared_ptr&lt; <a class="el" href="class_i_controller.html">IController</a> &gt;</td></tr>
+<tr class="memdesc:a2b64fc45831d48fb6c5ddf0095efd2d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тип указателя на интерфейс контроллера  <a href="#a2b64fc45831d48fb6c5ddf0095efd2d6">Подробнее...</a><br /></td></tr>
 <tr class="separator:a2b64fc45831d48fb6c5ddf0095efd2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
@@ -174,6 +183,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
       </table>
 </div><div class="memdoc">
 
+<p>Тип указателя на интерфейс контроллера </p>
+
 </div>
 </div>
 <a class="anchor" id="ac2fbe95294e9b08db804103795e90f21"></a>
@@ -182,6 +193,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="base__interface_8h.html#ac2fbe95294e9b08db804103795e90f21">IModelPtr</a> =  std::shared_ptr&lt;<a class="el" href="class_i_model.html">IModel</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Тип указателя на интерфейс модели </p>
+
+</div>
+</div>
+<a class="anchor" id="a21c827cf1eacda239eccb2c00dc8b6c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="base__interface_8h.html#a21c827cf1eacda239eccb2c00dc8b6c1">IViewPtr</a> =  std::shared_ptr&lt;<a class="el" href="class_i_view.html">IView</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">

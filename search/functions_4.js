@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['import',['import',['../class_document.html#a904ee9fba1b186b278853dbe62f61112',1,'Document']]]
+  ['handledocument',['handleDocument',['../main_8cpp.html#ab7facaa5bc7b684b1ef977b05b914039',1,'main.cpp']]],
+  ['handlegraphicprimitive',['handleGraphicPrimitive',['../main_8cpp.html#af5f6fd0d2ab92ce6727a3eb39bd98af1',1,'main.cpp']]]
 ];

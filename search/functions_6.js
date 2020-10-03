@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['notify',['notify',['../class_i_controller.html#a36f08365ee23b5a7785c82b8c1e67e0f',1,'IController::notify()'],['../class_controller.html#a005c86f06ac5442331bdfab494bd42a0',1,'Controller::notify()']]]
+  ['main',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
+  ['makecontroller',['makeController',['../controller_8cpp.html#acd46b903e6bae8aa83721aeeceb480e1',1,'makeController():&#160;controller.cpp'],['../controller_8h.html#acd46b903e6bae8aa83721aeeceb480e1',1,'makeController():&#160;controller.cpp']]]
 ];

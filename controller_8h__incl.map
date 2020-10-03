@@ -1,5 +1,6 @@
 <map id="/home/travis/build/tantskii/editor/src/controller.h" name="/home/travis/build/tantskii/editor/src/controller.h">
-<area shape="rect" id="node2" href="$base__interface_8h.html" title="Заголовочный файл, содержащий интерфейсы контроллера и модели. " alt="" coords="30,184,158,211"/>
-<area shape="rect" id="node4" href="$document_8h.html" title="Заголовочный файл, содержащий интерфейс модели документа. " alt="" coords="190,109,289,136"/>
-<area shape="rect" id="node6" href="$graphic__primitive_8h.html" title="Заголовочный файл, содержащий интерфейс модели графического интерфейса. " alt="" coords="23,109,165,136"/>
+<area shape="rect" id="node2" href="$base__interface_8h.html" title="Заголовочный файл, содержащий интерфейсы контроллера и модели. " alt="" coords="81,184,209,211"/>
+<area shape="rect" id="node7" href="$document_8h.html" title="Заголовочный файл, содержащий интерфейс модели документа. " alt="" coords="241,109,340,136"/>
+<area shape="rect" id="node9" href="$graphic__primitive_8h.html" title="Заголовочный файл, содержащий интерфейс модели графического интерфейса. " alt="" coords="74,109,217,136"/>
+<area shape="rect" id="node3" href="$publisher_8h.html" title="Заголовочный файл, содержит объявление интерфейсов шаблона Publisher&#45;Subscriber. " alt="" coords="59,259,149,285"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="IModel" name="IModel">
-<area shape="rect" id="node2" href="$class_document.html" title="Документ. " alt="" coords="5,145,120,252"/>
-<area shape="rect" id="node3" href="$class_graphic_primitive.html" title="{GraphicPrimitive\n||+ GraphicPrimitive()\l+ ~GraphicPrimitive()\l}" alt="" coords="144,153,307,245"/>
+<area shape="rect" id="node3" href="$class_document.html" title="Документ. " alt="" coords="5,285,120,392"/>
+<area shape="rect" id="node4" href="$class_graphic_primitive.html" title="{GraphicPrimitive\n||+ GraphicPrimitive()\l+ ~GraphicPrimitive()\l}" alt="" coords="144,293,307,385"/>
+<area shape="rect" id="node2" href="$class_publisher.html" title="{Publisher\n||+ attach()\l+ notify()\l}" alt="" coords="100,5,188,97"/>
 </map>

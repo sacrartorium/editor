@@ -1,0 +1,5 @@
+<map id="IView" name="IView">
+<area shape="rect" id="node3" href="$class_document_view.html" title="{DocumentView\n||+ render()\l+ update()\l}" alt="" coords="5,300,124,392"/>
+<area shape="rect" id="node4" href="$class_graphic_primitive_view.html" title="{GraphicPrimitiveView\n||+ render()\l+ update()\l}" alt="" coords="147,300,302,392"/>
+<area shape="rect" id="node2" href="$class_subscriber.html" title="{Subscriber\n||+ ~Subscriber()\l+ update()\l}" alt="" coords="81,5,208,97"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="/home/travis/build/tantskii/editor/src/publisher.h" name="/home/travis/build/tantskii/editor/src/publisher.h">
+<area shape="rect" id="node2" href="$base__interface_8h.html" title="Заголовочный файл, содержащий интерфейсы контроллера и модели. " alt="" coords="228,109,364,165"/>
+<area shape="rect" id="node11" href="$publisher_8cpp.html" title="/home/travis/build\l/tantskii/editor/src\l/publisher.cpp" alt="" coords="388,109,524,165"/>
+<area shape="rect" id="node3" href="$base__interface_8cpp.html" title="/home/travis/build\l/tantskii/editor/src\l/base_interface.cpp" alt="" coords="5,213,152,269"/>
+<area shape="rect" id="node4" href="$controller_8h.html" title="/home/travis/build\l/tantskii/editor/src\l/controller.h" alt="" coords="281,317,417,373"/>
+<area shape="rect" id="node7" href="$document_8h.html" title="Заголовочный файл, содержащий интерфейс модели документа. " alt="" coords="176,213,312,269"/>
+<area shape="rect" id="node9" href="$graphic__primitive_8h.html" title="Заголовочный файл, содержащий интерфейс модели графического интерфейса. " alt="" coords="387,213,533,269"/>
+<area shape="rect" id="node5" href="$controller_8cpp.html" title="/home/travis/build\l/tantskii/editor/src\l/controller.cpp" alt="" coords="201,421,337,477"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="/home/travis/build\l/tantskii/editor/src\l/main.cpp" alt="" coords="361,421,497,477"/>
+<area shape="rect" id="node8" href="$document_8cpp.html" title="/home/travis/build\l/tantskii/editor/src\l/document.cpp" alt="" coords="121,317,257,373"/>
+<area shape="rect" id="node10" href="$graphic__primitive_8cpp.html" title="/home/travis/build\l/tantskii/editor/src\l/graphic_primitive.cpp" alt="" coords="441,317,604,373"/>
+</map>

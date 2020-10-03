@@ -1,7 +1,12 @@
 <map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
-<area shape="rect" id="node2" href="$class_controller.html" title="Controller" alt="" coords="257,5,341,32"/>
-<area shape="rect" id="node3" href="$class_document.html" title="Документ. " alt="" coords="255,107,344,133"/>
-<area shape="rect" id="node4" href="$class_graphic_primitive.html" title="GraphicPrimitive" alt="" coords="236,56,363,83"/>
-<area shape="rect" id="node5" href="$class_i_controller.html" title="Базовый интерфейс контроллера. " alt="" coords="53,5,140,32"/>
-<area shape="rect" id="node6" href="$class_i_model.html" title="Базовый интерфейс модели. " alt="" coords="65,107,128,133"/>
+<area shape="rect" id="node2" href="$class_controller.html" title="Controller" alt="" coords="410,5,494,32"/>
+<area shape="rect" id="node3" href="$class_document.html" title="Документ. " alt="" coords="407,107,497,133"/>
+<area shape="rect" id="node4" href="$class_document_view.html" title="DocumentView" alt="" coords="393,208,511,235"/>
+<area shape="rect" id="node5" href="$class_graphic_primitive.html" title="GraphicPrimitive" alt="" coords="389,56,515,83"/>
+<area shape="rect" id="node6" href="$class_graphic_primitive_view.html" title="GraphicPrimitiveView" alt="" coords="375,157,529,184"/>
+<area shape="rect" id="node7" href="$class_i_controller.html" title="Базовый интерфейс контроллера. " alt="" coords="192,5,279,32"/>
+<area shape="rect" id="node8" href="$class_publisher.html" title="Publisher" alt="" coords="11,56,91,83"/>
+<area shape="rect" id="node9" href="$class_i_model.html" title="Базовый интерфейс модели. " alt="" coords="204,56,267,83"/>
+<area shape="rect" id="node10" href="$class_subscriber.html" title="Subscriber" alt="" coords="5,183,96,209"/>
+<area shape="rect" id="node11" href="$class_i_view.html" title="Базовый интерфейс представления. " alt="" coords="208,183,263,209"/>
 </map>

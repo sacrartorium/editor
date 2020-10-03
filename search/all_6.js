@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['m_5fcontrollerptr',['m_controllerPtr',['../class_i_model.html#ad7ea722c1659a17369e27505c9bbd36c',1,'IModel']]],
-  ['main',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
-  ['main_2ecpp',['main.cpp',['../main_8cpp.html',1,'']]],
-  ['makecontroller',['makeController',['../controller_8cpp.html#acd46b903e6bae8aa83721aeeceb480e1',1,'makeController():&#160;controller.cpp'],['../controller_8h.html#acd46b903e6bae8aa83721aeeceb480e1',1,'makeController():&#160;controller.cpp']]]
+  ['icontroller',['IController',['../class_i_controller.html',1,'']]],
+  ['icontrollerptr',['IControllerPtr',['../base__interface_8h.html#a2b64fc45831d48fb6c5ddf0095efd2d6',1,'base_interface.h']]],
+  ['imodel',['IModel',['../class_i_model.html',1,'']]],
+  ['imodelptr',['IModelPtr',['../base__interface_8h.html#ac2fbe95294e9b08db804103795e90f21',1,'base_interface.h']]],
+  ['import',['import',['../class_document.html#a904ee9fba1b186b278853dbe62f61112',1,'Document']]],
+  ['iview',['IView',['../class_i_view.html',1,'']]],
+  ['iviewptr',['IViewPtr',['../base__interface_8h.html#a21c827cf1eacda239eccb2c00dc8b6c1',1,'base_interface.h']]]
 ];

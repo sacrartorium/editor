@@ -1,0 +1,5 @@
+<map id="Subscriber" name="Subscriber">
+<area shape="rect" id="node2" href="$class_i_view.html" title="Базовый интерфейс представления. " alt="" coords="92,145,197,252"/>
+<area shape="rect" id="node3" href="$class_document_view.html" title="{DocumentView\n||+ render()\l+ update()\l}" alt="" coords="5,300,124,392"/>
+<area shape="rect" id="node4" href="$class_graphic_primitive_view.html" title="{GraphicPrimitiveView\n||+ render()\l+ update()\l}" alt="" coords="147,300,302,392"/>
+</map>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['set',['set',['../_c_make_lists_8txt.html#a52c744c556d315a017e6d4ac4e5f20da',1,'CMakeLists.txt']]],
-  ['setcontroller',['setController',['../class_i_model.html#ac1074c3b940758ce8ecdc12fccc0058f',1,'IModel']]]
+  ['notify',['notify',['../class_i_controller.html#a36f08365ee23b5a7785c82b8c1e67e0f',1,'IController::notify()'],['../class_controller.html#a005c86f06ac5442331bdfab494bd42a0',1,'Controller::notify()'],['../class_publisher.html#abf79b72212b3ee68fceb10b029ba41bb',1,'Publisher::notify()']]]
 ];

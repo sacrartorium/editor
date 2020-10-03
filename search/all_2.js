@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['destroygraphicprimitive',['destroyGraphicPrimitive',['../class_controller.html#a4c24ff90ca2b1bceb6fcee0ca97e26fd',1,'Controller']]],
-  ['document',['Document',['../class_document.html',1,'Document'],['../class_document.html#acdbcbe550084e8c20f4f67eb229ad66a',1,'Document::Document()']]],
-  ['document_2ecpp',['document.cpp',['../document_8cpp.html',1,'']]],
-  ['document_2eh',['document.h',['../document_8h.html',1,'']]],
-  ['documentptr',['DocumentPtr',['../document_8h.html#ad60171aff89ecd58f40540e0e5a82013',1,'document.h']]],
-  ['dump',['dump',['../class_document.html#a8366e008d4a018cd920e9683f2139cb5',1,'Document']]]
+  ['cmakelists_2etxt',['CMakeLists.txt',['../_c_make_lists_8txt.html',1,'']]],
+  ['controller',['Controller',['../class_controller.html',1,'']]],
+  ['controller_2ecpp',['controller.cpp',['../controller_8cpp.html',1,'']]],
+  ['controller_2eh',['controller.h',['../controller_8h.html',1,'']]],
+  ['controllerptr',['ControllerPtr',['../controller_8h.html#a2d4a405eee06f01ae6e361c77a57f709',1,'controller.h']]],
+  ['createdocument',['createDocument',['../class_controller.html#aba29793709ce8f0f0b7df8e33ebae9a1',1,'Controller']]],
+  ['createdocumentview',['createDocumentView',['../class_controller.html#a23be2b92ae157c7325fc98449804924f',1,'Controller']]],
+  ['creategraphicprimitive',['createGraphicPrimitive',['../class_controller.html#a85821b8cdb88981e14989216e6adde72',1,'Controller']]],
+  ['creategraphicprimitiveview',['createGraphicPrimitiveView',['../class_controller.html#ae4e173460ce9e1acd793e6da0099a003',1,'Controller']]]
 ];

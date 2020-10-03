@@ -11,9 +11,13 @@
 
 
 class GraphicPrimitive;
+class GraphicPrimitiveView;
 
 ///< Тип указателя на модель графического примитива
-using GraphicPrimitivePtr = std::shared_ptr<GraphicPrimitive>;
+using GraphicPrimitivePtr     = std::shared_ptr<GraphicPrimitive>;
+
+///< Тип указателя на графического примитива документа.
+using GraphicPrimitiveViewPtr = std::shared_ptr<GraphicPrimitiveView>;
 
 
 /*!
@@ -23,4 +27,11 @@ class GraphicPrimitive : public IModel, public std::enable_shared_from_this<Grap
 public:
     GraphicPrimitive();  ///< Создание графического примитива
     ~GraphicPrimitive(); ///< Удаление графического примитива
+};
+
+
+class GraphicPrimitiveView : public IView, public std::enable_shared_from_this<GraphicPrimitiveView> {
+public:
+    void render() const override;
+    void update(const std::string&) override;
 };

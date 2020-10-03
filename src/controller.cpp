@@ -14,6 +14,7 @@ void Controller::notify(IModelPtr modelPtr, std::string event) const {
 
 /*!
  Создание графического примитива.
+ @return Указатель на графический примитив.
  */
 GraphicPrimitivePtr Controller::createGraphicPrimitive() {
     m_graphicPrimitivePtr = std::make_shared<GraphicPrimitive>();
@@ -35,12 +36,35 @@ void Controller::destroyGraphicPrimitive(GraphicPrimitivePtr graphicPrimitivePtr
 
 /*!
  Создание документа.
+ @return Указатель на документ.
  */
 DocumentPtr Controller::createDocument() {
     m_documentPtr = std::make_shared<Document>();
     m_documentPtr->setController(shared_from_this());
     notify(m_documentPtr, "create document");
     return m_documentPtr;
+}
+
+
+/*!
+ Создание представления документа.
+ */
+DocumentViewPtr Controller::createDocumentView() {
+    DocumentViewPtr view = std::make_shared<DocumentView>();
+    view->setModel(m_documentPtr);
+    m_documentPtr->attach(view);
+    return view;
+}
+
+
+/*!
+ Создание представления графического примитива.
+ */
+GraphicPrimitiveViewPtr Controller::createGraphicPrimitiveView() {
+    GraphicPrimitiveViewPtr view = std::make_shared<GraphicPrimitiveView>();
+    view->setModel(m_graphicPrimitivePtr);
+    m_graphicPrimitivePtr->attach(view);
+    return view;
 }
 
 

@@ -10,7 +10,9 @@ public:
     void notify(IModelPtr modelPtr, std::string event) const override;
     
     DocumentPtr createDocument(); ///< Создание документа.
+    DocumentViewPtr createDocumentView(); ///< Создание представления документа.
     GraphicPrimitivePtr createGraphicPrimitive();  ///< Создание графического примитива.
+    GraphicPrimitiveViewPtr createGraphicPrimitiveView();  ///< Создание представления графического примитива.
     void destroyGraphicPrimitive(GraphicPrimitivePtr); ///< Удаление графического примитива.
     
 private:

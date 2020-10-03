@@ -4,11 +4,14 @@
 /*!
  Демонстрационная функция обработки документа.
  */
-void handle_document() {
-    ControllerPtr controller = makeController();
+void handleDocument(ControllerPtr controller) {
     DocumentPtr document = controller->createDocument();
+    DocumentViewPtr view = controller->createDocumentView();
+    
     document->import("/home/user/import.doc");
-    /* Какие-то действия с документом. */
+    document->notify("#1 add new line");
+    document->notify("#2 add new line");
+    document->notify("#3 delete line");
     document->dump("/home/user/export.doc");
 }
 
@@ -16,17 +19,21 @@ void handle_document() {
 /*!
  Демонстрационная функция обработки графического интерфейса.
  */
-void handle_graphic_primitive() {
-    ControllerPtr controller = makeController();
+void handleGraphicPrimitive(ControllerPtr controller) {
     GraphicPrimitivePtr graphicPrimitive = controller->createGraphicPrimitive();
-    /* Какие-то действия с графическим примитивом. */
+    GraphicPrimitiveViewPtr view = controller->createGraphicPrimitiveView();
+    
+    graphicPrimitive->notify("#1 change color");
+    graphicPrimitive->notify("#2 change width");
+    
     controller->destroyGraphicPrimitive(graphicPrimitive);
 }
 
 
 int main() {
-    handle_document();
-    handle_graphic_primitive();
+    ControllerPtr controller = makeController();
+    handleDocument(controller);
+    handleGraphicPrimitive(controller);
     
     return 0;
 }
